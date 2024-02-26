@@ -6,3 +6,5 @@ langchain==0.0.352
 beautifulsoup4==4.11.1
 tiktoken==0.5.2
 uvicorn==0.18.2
+googlemaps==4.10.0
+tripadvisorapi==1.0.0

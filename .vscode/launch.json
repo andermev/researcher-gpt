@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      
+      {
+        "name": "FastAPI",
+        "type": "python",
+        "request": "launch",
+        "module": "uvicorn",
+        "envFile": "${workspaceFolder}/.env",
+        "args": ["app:app", "--host", "0.0.0.0", "--port", "10000"],
+        "jinja": true,
+        "justMyCode": false
+      },
+      {
+        "name": "Current",
+        "type": "python",
+        "request": "launch",
+        "envFile": "${workspaceFolder}/.env",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": true
+      }
+    ]
+  }
